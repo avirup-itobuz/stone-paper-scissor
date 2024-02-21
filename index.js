@@ -93,25 +93,25 @@ function showResult() {
 
 stone.addEventListener("click", () => {
   playChoice = "stone";
-  playerChoice.src = "./images/stone.png";
+  playerChoice.src = "./images/stonePlayer.png";
   compChoice = generateComputerChoice();
-  computerChoice.src = `./images/${compChoice}.png`;
+  computerChoice.src = `./images/${compChoice}Computer.png`;
   fight(compChoice, playChoice);
 });
 
 paper.addEventListener("click", () => {
   playChoice = "paper";
-  playerChoice.src = "./images/paper.png";
+  playerChoice.src = "./images/paperPlayer.png";
   compChoice = generateComputerChoice();
-  computerChoice.src = `./images/${compChoice}.png`;
+  computerChoice.src = `./images/${compChoice}Computer.png`;
   fight(compChoice, playChoice);
 });
 
 scissor.addEventListener("click", () => {
   playChoice = "scissor";
-  playerChoice.src = "./images/scissor.png";
+  playerChoice.src = "./images/scissorPlayer.png";
   compChoice = generateComputerChoice();
-  computerChoice.src = `./images/${compChoice}.png`;
+  computerChoice.src = `./images/${compChoice}Computer.png`;
   fight(compChoice, playChoice);
 });
 

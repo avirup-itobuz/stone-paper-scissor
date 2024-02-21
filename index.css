@@ -12,6 +12,14 @@ img {
   height: 50px;
 }
 
+.player-choices img {
+  transform: rotate(90deg);
+}
+
+.gameplay {
+  height: 45vh;
+}
+
 .start {
   height: 100vh;
   display: flex;
